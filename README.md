@@ -176,7 +176,8 @@ ORDER BY 2 DESC
 ```
    
 4. Find tracks where the energy-to-liveness ratio is greater than 1.2.
-```with t1 as(
+```sql
+with t1 as(
 select track,energy,liveness from spotify
 where liveness<>0)
 select t1.track,energy/liveness as ratio from t1
