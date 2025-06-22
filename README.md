@@ -247,10 +247,5 @@ This optimization shows how indexing can drastically reduce query time, improvin
 
 ---
 
-## Contributing
-If you would like to contribute to this project, feel free to fork the repository, submit pull requests, or raise issues.
 
----
 
-## License
-This project is licensed under the MIT License.
